@@ -1,0 +1,15 @@
+{
+  "parsed_movies": 2000,
+  "html_pages": 2014,
+  "category_pages": 10,
+  "detail_pages": 2000,
+  "m3u8_sources_extracted": 40,
+  "source_zip": "project-bolt-sb1-hcp5ymnv - 副本.zip",
+  "generated_at": "2026-05-25",
+  "notes": [
+    "所有 HTML 页面已插入百度统计脚本。",
+    "详情页播放器已绑定上传素材中提取的 m3u8 地址，并使用本地 HLS 模块初始化。",
+    "页面引用顶级目录 1.jpg 到 150.jpg；源 ZIP 未包含 JPG，因此未额外生成图片文件。"
+  ],
+  "hls_asset": "hls-standalone.js"
+}

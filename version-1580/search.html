@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>影片搜索-欧美热门电影-热门好看的电影大全-在线点播浏览</title>
+<meta name="description" content="搜索欧美热门电影、热门好看的电影大全、在线点播影片内容。">
+<meta name="keywords" content="影片搜索,欧美热门电影,欧美电影,热门电影,电影大全,在线点播,影片片库">
+<link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="欧美热门电影">
+      <span class="brand-mark">欧</span>
+      <span class="brand-text">
+        <strong>欧美热门电影</strong>
+        <em>在线点播浏览</em>
+      </span>
+    </a>
+    <nav class="main-nav" aria-label="主导航">
+      <a href="index.html">首页</a>
+      <a href="categories.html">分类</a>
+      <a href="ranking.html">热播榜</a>
+      <a href="category-action.html">动作大片</a><a href="category-romance.html">爱情剧场</a><a href="category-suspense.html">悬疑惊悚</a><a href="category-scifi.html">科幻奇幻</a><a href="category-comedy.html">喜剧精选</a>
+    </nav>
+    <form class="search-form" action="search.html" method="get">
+      <input class="site-search" type="search" name="q" placeholder="搜索电影..." autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="menu-toggle" type="button" aria-label="展开导航">☰</button>
+  </div>
+</header>
+<main class="page-shell">
+  <div class="breadcrumb"><a href="index.html">首页</a> / 搜索</div>
+  <section class="page-title">
+    <h1>影片搜索</h1>
+    <p>输入影片名、题材、地区或年份，快速找到想看的内容。</p>
+  </section>
+  <section class="content-box">
+    <form class="search-form" action="search.html" method="get">
+      <input class="search-page-input" type="search" name="q" placeholder="搜索电影..." autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <div class="search-results"></div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <strong>欧美热门电影</strong>
+      <p>欧美热门电影栏目聚合高关注欧美影片，便于按题材和热度查看电影内容。</p>
+    </div>
+    <div class="footer-links">
+      <a href="index.html">首页</a>
+      <a href="categories.html">分类</a>
+      <a href="ranking.html">热播榜</a>
+      <a href="search.html">搜索</a>
+    </div>
+  </div>
+</footer>
+<script src="./assets/app.js"></script>
+<script src="./assets/search-data.js"></script>
+<script src="./assets/search.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>搜索 - 最新国产电视剧-最新剧集合集-全集高清在线播放</title>
+  <meta name="description" content="最新国产电视剧栏目整理近期国产剧集，按题材、地区和热度分类，内容持续更新。">
+  <meta name="keywords" content="最新国产电视剧,最新剧集合集,全集高清在线播放,国产电视剧,热播国产电视剧,剧集更新">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="nav-container">
+    <a class="logo" href="index.html" aria-label="国产电视剧">
+      <span class="logo-mark">剧</span>
+      <span class="logo-text">国产电视剧</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+        <a class="nav-link" href="index.html">首页</a>
+        <a class="nav-link" href="categories.html">分类</a>
+        <a class="nav-link" href="ranking.html">排行榜</a>
+        <a class="nav-link" href="all.html">全部影片</a>
+      <div class="nav-dropdown">
+        <button class="nav-link dropdown-trigger" type="button">题材分类</button>
+        <div class="dropdown-menu">
+          <a href="category/juqing.html">剧情</a>
+          <a href="category/xiju.html">喜剧</a>
+          <a href="category/aiqing.html">爱情</a>
+          <a href="category/dongzuo.html">动作</a>
+          <a href="category/xuanyi.html">悬疑</a>
+          <a href="category/kehuan.html">科幻</a>
+          <a href="category/qihuan.html">奇幻</a>
+          <a href="category/guzhuang.html">古装</a>
+          <a href="category/jiating.html">家庭</a>
+          <a href="category/maoxian.html">冒险</a>
+          <a href="category/jingsong.html">惊悚</a>
+          <a href="category/kongbu.html">恐怖</a>
+        </div>
+      </div>
+    </nav>
+    <form class="header-search" action="search.html" method="get" role="search">
+      <input type="search" name="q" placeholder="搜索剧名、题材、地区..." aria-label="搜索剧名、题材、地区">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">菜单</button>
+  </div>
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <form class="mobile-search" action="search.html" method="get" role="search">
+      <input type="search" name="q" placeholder="搜索视频..." aria-label="移动端搜索">
+      <button type="submit">搜索</button>
+    </form>
+    <a href="index.html">首页</a>
+    <a href="categories.html">分类总览</a>
+    <a href="ranking.html">排行榜</a>
+    <a href="all.html">全部影片</a>
+    <div class="mobile-category-list">
+        <a href="category/juqing.html">剧情</a>
+        <a href="category/xiju.html">喜剧</a>
+        <a href="category/aiqing.html">爱情</a>
+        <a href="category/dongzuo.html">动作</a>
+        <a href="category/xuanyi.html">悬疑</a>
+        <a href="category/kehuan.html">科幻</a>
+        <a href="category/qihuan.html">奇幻</a>
+        <a href="category/guzhuang.html">古装</a>
+        <a href="category/jiating.html">家庭</a>
+        <a href="category/maoxian.html">冒险</a>
+        <a href="category/jingsong.html">惊悚</a>
+        <a href="category/kongbu.html">恐怖</a>
+    </div>
+  </div>
+</header>
+<main>
+  <section class="page-hero">
+    <div class="content-wrap narrow">
+      <p class="eyebrow">站内搜索</p>
+      <h1>搜索结果</h1>
+      <p>输入影片名、题材、地区或年份后，页面会从静态数据中即时渲染结果。</p>
+    </div>
+  </section>
+  <div class="content-wrap">
+    <section class="filter-panel search-panel">
+      <div>
+        <h2>搜索影片</h2>
+        <p id="search-summary">请输入关键词开始搜索。</p>
+      </div>
+      <form class="search-page-form" action="search.html" method="get">
+        <input type="search" name="q" id="search-input" placeholder="例如：悬疑、国产、2024" aria-label="搜索关键词">
+        <button type="submit">搜索</button>
+      </form>
+    </section>
+    <section class="content-section">
+      <div class="movie-grid compact-grid" id="search-results"></div>
+      <p class="empty-state" id="search-empty" hidden>没有找到相关影片。</p>
+    </section>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <div class="footer-logo"><span class="logo-mark">剧</span><span>国产电视剧</span></div>
+      <p>聚合热门国产剧集与影视内容，提供清晰分类、榜单索引和静态化详情页。</p>
+    </div>
+    <div>
+      <h3>快速入口</h3>
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="categories.html">分类总览</a></li>
+        <li><a href="ranking.html">热度排行</a></li>
+        <li><a href="all.html">全部影片</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>题材导航</h3>
+      <ul>
+          <li><a href="category/juqing.html">剧情片库</a></li>
+          <li><a href="category/xiju.html">喜剧片库</a></li>
+          <li><a href="category/aiqing.html">爱情片库</a></li>
+          <li><a href="category/dongzuo.html">动作片库</a></li>
+          <li><a href="category/xuanyi.html">悬疑片库</a></li>
+          <li><a href="category/kehuan.html">科幻片库</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">© 国产电视剧. All rights reserved.</div>
+</footer>
+<script src="assets/main.js" defer></script>
+<script src="assets/movies-data.js" defer></script>
+<script src="assets/search.js" defer></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
